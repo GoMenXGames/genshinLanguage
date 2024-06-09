@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>English</h2>
+        <textarea class="english" name="english" id="0">English</textarea><br>
+        <h2>Teyvat's</h2>
+        <textarea class="teyvat" name="teyvat" id="1">Teyvat</textarea><br>
+        <h2>Khaenriah's</h2>
+        <textarea class="khaenriah" name="khaenriah" id="2">Khaenriah</textarea>
+    </body>
+    <script src="script.js"></script>
+    <fieldset>
+        <legend>Keyboard <select name="language" id="language"><option value="teyvat">Teyvat</option></select></legend>
+        <div class="keys khaenriah">
+            
+        </div>
+    </fieldset>
+    <script>
+        renderAll()
+    </script>
+</html>

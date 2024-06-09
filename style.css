@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: english;
+    src: url("hanyiwenhei.ttf");
+}
+
+@font-face {
+    font-family: teyvat;
+    src: url("Teyvat-Regular.ttf");
+}
+
+@font-face {
+    font-family: khaenriah;
+    src: url("Khaenriah-Regular.ttf");
+}
+
+.english, .english > input {
+    font-family: "english";
+    font-size: 21px;
+}
+
+.teyvat, .teyvat > input {
+    font-family: "teyvat";
+    font-size: 24px;
+}
+
+.khaenriah, .khaenriah > input  {
+    font-family: "khaenriah";
+    font-size: 27px;
+}
